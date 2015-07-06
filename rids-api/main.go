@@ -14,7 +14,7 @@ import (
 	"github.com/bitly/go-simplejson"
 	"github.com/codegangsta/cli"
 	"github.com/therealbill/libredis/client"
-	"github.com/therealbill/rids/structures"
+	"github.com/therealbill/rids/rids-api/structures"
 	"github.com/zenazn/goji/graceful"
 	"github.com/zenazn/goji/web"
 )

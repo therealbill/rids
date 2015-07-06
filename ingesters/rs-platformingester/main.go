@@ -1,4 +1,4 @@
-package main
+package main // import "github.com/therealbill/rids/ingesters/rs-platformingester"
 
 import (
 	"os"

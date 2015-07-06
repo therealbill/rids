@@ -3,6 +3,7 @@
 # #   make doesn't like spaces and ':' in filenames.
 #NOW := $(shell date +"%c" | tr ' :' '__')
 NOW := $(shell date +"%s" )
+ROOT := $(shell cd .. && pwd )
 
 rids-api:
 	@echo Pulling dependencies
