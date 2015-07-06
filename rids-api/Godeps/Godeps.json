@@ -1,0 +1,41 @@
+{
+	"ImportPath": "github.com/therealbill/rids/rids-api",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/bitly/go-simplejson",
+			"Comment": "v0.4.3-30-g18db6e6",
+			"Rev": "18db6e68d8fd9cbf2e8ebe4c81a78b96fd9bf05a"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-107-g942282e",
+			"Rev": "942282e931e8286aa802a30b01fa7e16befb50f3"
+		},
+		{
+			"ImportPath": "github.com/therealbill/libredis/client",
+			"Rev": "4760fa2e4e3fa2d9ba1635727d3a0925aeff4396"
+		},
+		{
+			"ImportPath": "github.com/therealbill/libredis/info",
+			"Rev": "4760fa2e4e3fa2d9ba1635727d3a0925aeff4396"
+		},
+		{
+			"ImportPath": "github.com/therealbill/libredis/structures",
+			"Rev": "4760fa2e4e3fa2d9ba1635727d3a0925aeff4396"
+		},
+		{
+			"ImportPath": "github.com/zenazn/goji/graceful",
+			"Comment": "v0.9.0-15-g0276f3f",
+			"Rev": "0276f3f3fb609aabf8d9ba7aea10c80ec979989d"
+		},
+		{
+			"ImportPath": "github.com/zenazn/goji/web",
+			"Comment": "v0.9.0-15-g0276f3f",
+			"Rev": "0276f3f3fb609aabf8d9ba7aea10c80ec979989d"
+		}
+	]
+}

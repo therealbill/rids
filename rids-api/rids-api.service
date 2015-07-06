@@ -1,0 +1,12 @@
+[Unit]
+Description=RTG Config data store
+After=redis-server.service
+
+[Service]
+ExecStart=/usr/local/bin/rids-api serve
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
