@@ -6,6 +6,5 @@ FROM     base/archlinux:latest
 MAINTAINER 	Bill Anderson <bill.anderson@rackspace.com>
 
 ADD rids-api /usr/bin/
- 
 # Run daemon
-CMD ["/usr/bin/rids-api"]
+CMD ["/usr/bin/rids-api","serve"]

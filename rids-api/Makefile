@@ -12,10 +12,6 @@ rids-api:
 	@go vet
 	@go build
 
-docker-image: rids-api
-	@echo "Hope you have docker setup and have access ;)"
-	docker build -t rids-api .
-
 docker-nolocalgo:
 	@echo using centurylink/golang-builder to build docker container
 	docker pull centurylink/golang-builder 
